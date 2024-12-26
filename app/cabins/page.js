@@ -2,6 +2,10 @@ import CabinList from '../_components/CabinList';
 import { Suspense } from 'react';
 import Spinner from '../_components/Spinner';
 
+//OPT OUT OF DATA CACHE (ROUTE LEVEL) || SET INTERVAL (SECS)
+export const revalidate = 3600;
+// export const revalidate = 10;
+
 export const metadata = {
   title: 'Cabins',
 };
