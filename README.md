@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Visit the site [here](https://the-wild-oasis-website-eta-umber.vercel.app/)
 
+This is the customer facing website for the fullstack The Wild Oasis application. Allows customers to see cabin details, book cabins, and manage their bookings. Everything is integrated with the supabase database that is shared with the backend site.
+
 ## Getting Started
 
 First, run the development server:
